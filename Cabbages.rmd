@@ -59,6 +59,18 @@ The numerical summary shows that cultivation method C39 has a mean vitamin C con
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+$H_0$ There is no difference in mean vitamin C content between cultivation methods C39 and C52.
+
+$H_A$ There is a difference in mean vitamin C content between cultivation methods C39 and C52.
+
+```{r}
+t.test(VitC ~ Cult, data=veggy)
+```
+A Welch two-sample t-test was conducted to determine whether there is a statistically significant difference in mean vitamin C content between the two cultivation methods. The significance level is 0.05.
+
+The Welch two-sample t-test resulted in a t-statistic of -6.3909, 56.376 degrees of freedom, and a p-value of 0.00000003405. Since the p-value is less than 0.05, we reject the null hypothesis. The 95% confidence interval ranges from -16.94 to -8.86 for the difference between C39 and C52. Since the confidence interval does not contain zero, the results are statistically significant.
+
+The Welch two-sample t-test is appropriate because we are comparing the means of a numerical variable between two separate cultivation groups. Both groups have a sample size of 30, which supports the approximate normality of the sampling distributions. The Welch t-test does not require equal variances. However, the test assumes that the observations are independent.
 
 # Discussion and Conclusion
 
