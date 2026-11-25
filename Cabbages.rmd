@@ -50,6 +50,10 @@ The boxplot shows that cultivation method C52 has a higher median vitamin C cont
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC ~ Cult, data=veggy)
+```
+The numerical summary shows that cultivation method C39 has a mean vitamin C content of 51.5 mg per 100 g, while C52 has a mean of 64.4 mg per 100 g. C52 produces cabbages with an average of 12.9 mg more vitamin C per 100 g than C39. Both cultivation methods have a sample size of 30 cabbages.
 
 ## Inferential Results
 
