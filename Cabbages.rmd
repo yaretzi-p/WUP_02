@@ -25,6 +25,8 @@ The purpose of this report is to determine whether there is a difference in aver
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+The explanatory variable is the cultivation method (Cult), which is categorical. The response variable is vitamin C content (VitC), which is numerical. We will use a boxplot, numerical summaries, and a two-sample t-test to determine whether there is a statistically significant difference between the two cultivation methods.
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
