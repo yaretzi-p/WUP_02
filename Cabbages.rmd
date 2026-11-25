@@ -74,4 +74,5 @@ The Welch two-sample t-test is appropriate because we are comparing the means of
 
 # Discussion and Conclusion
 
+The results provide sufficient statistical evidence to conclude that there is a difference in average vitamin C content between cultivation methods C39 and C52. Cultivation method C52 produces cabbages with a higher average vitamin C content of 64.4 mg per 100 g compared to 51.5 mg per 100 g for C39. Therefore, C52 appears to be the better cultivation method for producing cabbages with higher vitamin C content. However, other factors, such as growing conditions and planting dates, may also influence vitamin C content. Without additional information about the experimental design, we cannot conclude that the cultivation method alone caused the difference.
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
