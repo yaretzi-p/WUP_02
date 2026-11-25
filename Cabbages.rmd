@@ -37,6 +37,16 @@ The explanatory variable is the cultivation method (Cult), which is categorical.
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC ~ Cult, data=veggy,
+        main="Vitamin C Content by Cultivation Method",
+        xlab="Cultivation Method",
+        ylab="Vitamin C (mg per 100 g)",
+        col=c("lightgreen", "lightblue"))
+```
+The boxplot shows that cultivation method C52 has a higher median vitamin C content than cultivation method C39. C52 also has greater variability in vitamin C content.
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
