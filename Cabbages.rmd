@@ -1,7 +1,7 @@
 ---
 title: "Cabbages"
-author: "Put your name here!"
-date: "put the date here"
+author: "Yaretzi Padilla"
+date: "Fall 2026"
 output:
   html_document:
     df_print: paged
@@ -17,8 +17,8 @@ veggy <- cabbages
 # Introduction
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
- The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following two questions  
- 
+The purpose of this report is to determine whether there is a difference in average vitamin C content between cultivation methods C39 and C52. The data comes from the cabbages dataset in the MASS package.
+
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
 # Methods
